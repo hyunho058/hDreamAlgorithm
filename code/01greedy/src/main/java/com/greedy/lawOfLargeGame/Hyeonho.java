@@ -1,8 +1,10 @@
+package com.greedy.lawOfLargeGame;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class LawOfLarge {
+public class Hyeonho {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
