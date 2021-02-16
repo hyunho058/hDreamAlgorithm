@@ -29,6 +29,8 @@ public class Hyejin {
         System.out.println("============결과==========");
         System.out.println(numCardGame(cardArray));
 
+        sc.close();
+
 
 //        int[][] cardArray = {{3, 1, 2}, {4, 1, 4}, {2, 2, 2}};
 //        System.out.println(numCardGame(cardArray));
