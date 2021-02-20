@@ -1,4 +1,4 @@
-package com.greedy.untilOne;
+package com.greedy.guild;
 
 import java.util.ArrayList;
 import java.util.Arrays;
