@@ -1,4 +1,4 @@
-package com.greedy.convertString;
+package com.greedy.stringFlip;
 
 import java.util.Scanner;
 
