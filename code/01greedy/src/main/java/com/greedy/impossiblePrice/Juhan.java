@@ -1,7 +1,8 @@
-package com.greedy.NotmakeNumber;
+package com.greedy.impossiblePrice;
 
 import java.util.Arrays;
 import java.util.Scanner;
+
 
 public class Juhan {
 
@@ -14,7 +15,7 @@ public class Juhan {
         int inputNum = sc.nextInt();
         int cycle = 0;
 
-        while (inputNum != 0){
+        while (inputNum != 0) {
             coin[cycle] = inputNum % 10;
             inputNum /= 10;
             cycle++;
@@ -23,13 +24,13 @@ public class Juhan {
         System.out.println("결과 : " + solution(coin));
     }
 
-    public static int solution(int[] coin){
+    public static int solution(int[] coin) {
         Arrays.sort(coin);
 
         int notMakeNum = 1;
-        for(int i = 0; i < coin.length; i ++){
-            System.out.println("NotNum = " + notMakeNum + "coin = " +coin[i]);
-            if(notMakeNum < coin[i]){
+        for (int i = 0; i < coin.length; i++) {
+            System.out.println("NotNum = " + notMakeNum + "coin = " + coin[i]);
+            if (notMakeNum < coin[i]) {
                 break;
             }
             notMakeNum += coin[i];
@@ -40,3 +41,4 @@ public class Juhan {
     }
 
 }
+
