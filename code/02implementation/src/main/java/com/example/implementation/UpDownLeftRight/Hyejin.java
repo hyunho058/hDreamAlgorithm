@@ -17,7 +17,10 @@ public class Hyejin {
 
         //testcase
         System.out.println(upDownLeftRtight(5, new String[]{"R", "R", "R", "U", "D", "D"}));
+        System.out.println(upDownLeftRtight2(5, new String[]{"R", "R", "R", "U", "D", "D"}));
         System.out.println(upDownLeftRtight(5, new String[]{"U", "R", "R", "U", "D", "D", "L"}));
+        System.out.println(upDownLeftRtight2(5, new String[]{"U", "R", "R", "U", "D", "D", "L"}));
+
 
 
     }
@@ -64,6 +67,51 @@ public class Hyejin {
 
 
         }
+        return y + " " + x;
+    }
+
+    /**
+     *
+     * 풀이
+     *
+     * 1. 방향 배열 만들기
+     * 2. 방향 마다 x,y 이동 배열 만들기
+     * 3. 이동하는 arr를 하나씩 꺼냄
+     * 4. 반복문으로 arr의 값에 해당하면 작업 수행
+     * 5. 만약 이동하는게 0이나 n초과면 return
+     *
+     */
+
+    public static String upDownLeftRtight2(int n, String arr[]) {
+        //방향배열, 이동배열 만들기
+        String[] move = {"L","R","U","D"};
+        int [] xMove = {-1,1,0,0};
+        int [] yMove = {0,0,-1,1};
+
+        int x=1,y = 1;
+
+        //값 하나씩 꺼내서 이동하기
+        for(int i = 0; i< arr.length; i++){
+            String movNow = arr[i];
+
+            //어디로 이동했는지 찾기, 이동시키기
+            int mx=0, my = 0;
+            for(int j = 0; j<move.length; j++){
+                if(move[j].equals(movNow)) {
+                    mx = x + xMove[j];
+                    my = y + yMove[j];
+                    break;
+                }
+            }
+            // 크기 벗어나면 안더함
+            if(mx<1 || mx >n || my <1 || my >n) continue;
+            //이동
+            x =mx;
+            y = my;
+
+        }
+
+
         return y + " " + x;
     }
 }
