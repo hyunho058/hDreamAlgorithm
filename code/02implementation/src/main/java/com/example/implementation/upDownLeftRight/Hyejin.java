@@ -1,6 +1,4 @@
-package com.example.implementation.UpDownLeftRight;
-
-import java.util.Scanner;
+package com.example.implementation.upDownLeftRight;
 
 public class Hyejin {
 
