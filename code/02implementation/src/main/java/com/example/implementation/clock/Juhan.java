@@ -1,4 +1,4 @@
-package com.greedy.time;
+package com.example.implementation.clock;
 
 import javax.rmi.ssl.SslRMIClientSocketFactory;
 import java.util.Scanner;

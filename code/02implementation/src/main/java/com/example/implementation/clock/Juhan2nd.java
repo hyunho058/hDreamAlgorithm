@@ -1,7 +1,7 @@
-package com.greedy.time;
+package com.example.implementation.clock;
 
 import java.util.Scanner;
-wkqk 
+
 public class Juhan2nd {
     /* N을 입력 받으면 0시 00분 00초 ~ N 시 까지
     * 3이 포함되어 있는 숫자를 카운트 하는 문제.

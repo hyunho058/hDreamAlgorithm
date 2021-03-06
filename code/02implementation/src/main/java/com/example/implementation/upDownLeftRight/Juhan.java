@@ -1,8 +1,8 @@
-package com.greedy.RLUP;
+package com.example.implementation.upDownLeftRight;
 
 import java.util.Scanner;
 
-public class juhan {
+public class Juhan {
 
     public static void main(String[] args) {
         System.out.println("N 값을 입력");
