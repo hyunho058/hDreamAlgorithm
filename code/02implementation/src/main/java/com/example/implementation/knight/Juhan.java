@@ -38,11 +38,11 @@ public class Juhan {
     public static int solution(int x, int y){
        int result = 0;
        System.out.println("x = " + x + "Y = " + y);
-       if(x>4&&y>4){
+       if(x>4||y>4){
            if(x>7&&y>7){
                result = 8;
            }else result = 6;
-       }if(x<3&&y<3){
+       }if(x<3||y<3){
            if((x==2&&y==2)||(x==2&&y==7)||(x==7&&y==2)||(x==7&&y==7)){
                result = 4;
            }if((x==1&&y==1)||(x==1&&y==8)||(x==8&&y==1)||(x==8&&y==8)){
