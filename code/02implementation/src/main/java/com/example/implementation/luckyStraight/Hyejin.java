@@ -1,4 +1,4 @@
-package com.example.implementation.LuckyStraight;
+package com.example.implementation.luckyStraight;
 
 import java.util.Scanner;
 
