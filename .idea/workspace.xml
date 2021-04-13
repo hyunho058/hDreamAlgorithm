@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25b1e9b3-8067-46eb-9bb3-a807d847a682" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="13f4788c-87c4-4ac4-8214-aa5631971491" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +18,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1oyTklfbP2Bp1XeSsuOiV0p6DFC" />
+  <component name="ProjectId" id="1r77iuxrjDIr8rr7ryeJRLzIsRr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,27 +28,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/02implementation" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="25b1e9b3-8067-46eb-9bb3-a807d847a682" name="Default Changelist" comment="" />
-      <created>1614257975478</created>
+      <changelist id="13f4788c-87c4-4ac4-8214-aa5631971491" name="Default Changelist" comment="" />
+      <created>1618315405075</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1614257975478</updated>
-      <workItem from="1614257977412" duration="353000" />
-      <workItem from="1614258352444" duration="422000" />
-      <workItem from="1614258798918" duration="99000" />
-      <workItem from="1614258980357" duration="2503000" />
-      <workItem from="1614342489086" duration="595000" />
-      <workItem from="1614641825391" duration="592000" />
-      <workItem from="1615202177985" duration="120000" />
-      <workItem from="1615420423218" duration="28000" />
+      <updated>1618315405075</updated>
+      <workItem from="1618315406461" duration="295000" />
     </task>
     <servers />
   </component>
@@ -65,6 +68,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
