@@ -1,72 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13f4788c-87c4-4ac4-8214-aa5631971491" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9b366fb7-fdb6-496c-a4d4-328df9a579b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hDreamAlgorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/.idea/01greedy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/01greedy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/11/6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/3/1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/3/1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/3/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/3/2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/3/2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/3/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/3/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/3/4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/3/4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/3/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/3/5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/3/6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/3/6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/greedyAnswer/3/6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/out/production/01greedy/com/greedy/lawOfLargeGame/Hyeonho.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/RLUP/juhan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/guild/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/guild/Hyunho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/guild/Juhan04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/impossiblePrice/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/impossiblePrice/Juhan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/lawOfLargeGame/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/lawOfLargeGame/juhan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/multiplyOrPlus/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/multiplyOrPlus/Hyunho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/multiplyOrPlus/Juhan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/muziMukbang/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/numCardGame/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/numCardGame/KHH_NumberCardsGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/numCardGame/juhan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/numCardGame/juhan2nd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/selectBowling/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/selectBowling/juhan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/stringFlip/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/stringFlip/JuhanConvertString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/untilOne/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/java/com/greedy/untilOne/Juhan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/src/test/java/com/greedy/GreedyApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/01greedy/그리디.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/7.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/8.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/12/8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/4/1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/4/1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/4/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/4/2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/4/2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/4/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/4/3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/4/3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/4/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/4/4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/4/4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/answer/4/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/ImplementationApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/clock/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/clock/Hyunho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/clock/Juhan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/clock/Juhan2nd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/gameImplement/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/knight/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/knight/Juhan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/luckyStraight/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/luckyStraight/Hyunho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/stringCompression/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/stringSorting/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/stringSorting/Hyunho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/upDownLeftRight/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/upDownLeftRight/Juhan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/java/com/example/implementation/upDownLeftRight/hyunho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/src/test/java/com/example/implementation/ImplementationApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/02implementation/구현.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/03DFS_BFS/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/03DFS_BFS/DFS_BFS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/03DFS_BFS/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/03DFS_BFS/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/03DFS_BFS/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/03DFS_BFS/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/03DFS_BFS/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/03DFS_BFS/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/03DFS_BFS/src/main/java/com/example/dfsbfs/DfsbfsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/03DFS_BFS/src/main/java/com/example/dfsbfs/backjoonDFSBFS/Hyejin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/03DFS_BFS/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/03DFS_BFS/src/test/java/com/example/dfsbfs/DfsbfsApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
-  </component>
-  <component name="ProjectId" id="1r77iuxrjDIr8rr7ryeJRLzIsRr" />
+  <component name="ProjectId" id="1vv4oPNjuqK6Xa0PLUblVwGat8n" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/algorithm" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="13f4788c-87c4-4ac4-8214-aa5631971491" name="Default Changelist" comment="" />
-      <created>1618315405075</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1618315405075</updated>
-      <workItem from="1618315406461" duration="295000" />
-    </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
