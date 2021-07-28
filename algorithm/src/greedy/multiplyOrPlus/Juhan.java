@@ -1,6 +1,5 @@
 package greedy.multiplyOrPlus;
 
-import sun.text.normalizer.Trie;
 
 import java.util.Scanner;
 

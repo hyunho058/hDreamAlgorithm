@@ -1,6 +1,5 @@
 package greedy.impossiblePrice;
 
-import sun.security.krb5.Asn1Exception;
 
 import java.util.Arrays;
 import java.util.Scanner;
