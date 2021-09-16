@@ -37,6 +37,7 @@ public class BestAlbum {
             genreSumMap.put(genre, genreSumMap.getOrDefault(genre, 0) + play);
         }
 
+        //장르 mapList 를 value - 내림차순 정렬
         List<String> listKeySet = new ArrayList<>(genreSumMap.keySet());
         Collections.sort(listKeySet, (value1, value2) -> (genreSumMap.get(value2).compareTo(genreSumMap.get(value1))));
         for (String key : listKeySet) {
@@ -48,10 +49,11 @@ public class BestAlbum {
                 System.out.println("genre == " + genre);
                 int play = plays[i];
                 if (key.equals(genres[i])) {
-                    songList.add(new Song(i, genre, play));
+                    songList.add(new Song(i, genre, play)); //카테도리 별로 list에 저장
                 }
             }
             System.out.println("songList == " + songList.size());
+            //카테도리별 저장된 리스트에서 list.size() > 2 크면 index 0,1번 , 2미만이면 index 0번 을 lankList에 저장
             if (songList.size() > 0) {
                 Collections.sort(songList, (o1, o2) -> o2.play - o1.play); // 내림차순 정렬
                 if (songList.size() < 2) {
