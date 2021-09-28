@@ -1,9 +1,6 @@
 package khh.stack_queue;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
 public class Printer {
     public static void main(String[] args) {
@@ -12,45 +9,71 @@ public class Printer {
 //        System.out.println("result == "+solution(new int[]{1 ,2, 3, 5, 9, 8, 7, 6}, 0));
     }
 
-    static public int solution(int[] priorities, int location) {
+    public static int solution(int[] priorities, int location) {
         int answer = 0;
-        int locationPosition = location;
-        int[] sortPriorities = priorities.clone();
-        Arrays.sort(sortPriorities);
-        Queue<Integer> jobQueue = new LinkedList<>();
-        for (int i = 0; i < priorities.length; i++) {
-            jobQueue.offer(priorities[i]);
+        PriorityQueue<Integer> prior = new PriorityQueue<>(Collections.reverseOrder());
+
+        for(int number:priorities){
+            prior.offer(number);
         }
-        boolean position = false;
 
-        for (int i = sortPriorities.length-1; i > 0; i--) {
-            System.out.println("----------------------sortPriorities[i] = " + sortPriorities[i]+"----------------------");
-            for (int j = 0; j < jobQueue.size(); j++) {
-                int tempValue = jobQueue.poll();
-
-                System.out.println("tempValue = " + tempValue);
-                if (sortPriorities[i] == tempValue) {
-                    if (locationPosition == 0){
-                        position = true;
+        while(!prior.isEmpty()){
+            for(int i = 0; i < priorities.length; i++){
+                System.out.println("priorities[i] = " + priorities[i] + " /  prior.peek() = " + prior.peek());
+                if(prior.peek() == priorities[i]){
+                    prior.poll();
+                    answer++;
+                    System.out.println("location = " + location+"  /  i = " + i);
+                    if(location == i){
+                        prior.clear();
+                        break;
                     }
-                    locationPosition--;
-                    System.out.println("--locationPosition poll= " + locationPosition+" --");
-                    break;
-                } else {
-                    jobQueue.offer(tempValue);
-                    if (locationPosition == 0) {
-                        locationPosition = jobQueue.size();
-                    }else {
-                        locationPosition--;
-                    }
-                    System.out.println("--locationPosition = " + locationPosition+" --");
+                    System.out.println("prior.size() = " + prior.size());
                 }
-            }
-            answer ++;
-            if (position){
-                break;
             }
         }
         return answer;
     }
+
+//    static public int solution(int[] priorities, int location) {
+//        int answer = 0;
+//        int locationPosition = location;
+//        int[] sortPriorities = priorities.clone();
+//        Arrays.sort(sortPriorities);
+//        Queue<Integer> jobQueue = new LinkedList<>();
+//        for (int i = 0; i < priorities.length; i++) {
+//            jobQueue.offer(priorities[i]);
+//        }
+//        boolean position = false;
+//
+//        for (int i = sortPriorities.length-1; i > 0; i--) {
+//            System.out.println("----------------------sortPriorities[i] = " + sortPriorities[i]+"----------------------");
+//            for (int j = 0; j < jobQueue.size(); j++) {
+//                int tempValue = jobQueue.poll();
+//
+//                System.out.println("tempValue = " + tempValue);
+//                if (sortPriorities[i] == tempValue) {
+//                    if (locationPosition == 0){
+//                        position = true;
+//                    }
+//                    locationPosition--;
+//                    System.out.println("--locationPosition poll= " + locationPosition+" --");
+//                    break;
+//                } else {
+//                    jobQueue.offer(tempValue);
+//                    if (locationPosition == 0) {
+//                        locationPosition = jobQueue.size();
+//                    }else {
+//                        locationPosition--;
+//                    }
+//                    System.out.println("--locationPosition = " + locationPosition+" --");
+//                }
+//            }
+//            answer ++;
+//            if (position){
+//                break;
+//            }
+//        }
+//        return answer;
+//    }
 }
