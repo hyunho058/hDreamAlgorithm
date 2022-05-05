@@ -1,5 +1,14 @@
 # hDreamAlgorithm
 
+> 열심히 알고리즘 공부합시다 🤗 
+> 2022 . 05 . 09 ~
+
+## RULE
+- 문제를 푼 후 PR를 합시다
+- 다른사람들 풀이를 보고 꼭 댓글을 달아줍시다
+- 추가로 좋은 문제가 있으면 README에 추가해주세요 언제든지 환영입니다
+
+## 문제들
 1. 그리디
     * [동전 0](https://www.acmicpc.net/problem/11047) - [문제 풀이](https://github.com/hyunho058/hDreamAlgorithm/tree/main/src/main/java/com/example/hdreamalgorithm/greedy/coinzero)
     * [대회 or 인턴](https://www.acmicpc.net/problem/2875)
