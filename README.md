@@ -1,7 +1,7 @@
 # hDreamAlgorithm
 
 1. 그리디
-    * [동전 0](https://www.acmicpc.net/problem/11047)
+    * [동전 0](https://www.acmicpc.net/problem/11047) - [문제 풀이](https://github.com/hyunho058/hDreamAlgorithm/tree/main/src/main/java/com/example/hdreamalgorithm/greedy/coinzero)
     * [대회 or 인턴](https://www.acmicpc.net/problem/2875)
     * [회의실 배정](https://www.acmicpc.net/problem/1931)
     * [멀티냅 스케줄링](https://www.acmicpc.net/problem/1700)
